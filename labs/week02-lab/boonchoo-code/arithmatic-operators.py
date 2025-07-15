@@ -8,6 +8,7 @@ print("=" * 50)
 
 a = 15
 b = 4
+c = 5
 
 print(f"a = {a}, b = {b}")
 print()

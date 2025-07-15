@@ -18,6 +18,12 @@ Below 18.5: Underweight
 
 """
 
+weight = int("How much do you weight:")
+height = int("How tall are you?:")
+BMI = weight / (height²)
+                
+if 
+
 
 """
 Question 2: Currency Converter (20 points)

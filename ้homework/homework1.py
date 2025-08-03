@@ -7,7 +7,7 @@ emergency = float(input(" Percentage to save for emergency (e.g., 10.5):"))
 investment = float(input("Percentage to invest (e.g., 15.0)"))
 
 Fixed = rent + transportation
-total_variable = food + entertainment
+total_variable = food + entertainment 
 total_expenses = Fixed + total_variable
 Renmaining = monthly_income - total_expenses
 Emergency_Fund = monthly_income * (emergency/100)

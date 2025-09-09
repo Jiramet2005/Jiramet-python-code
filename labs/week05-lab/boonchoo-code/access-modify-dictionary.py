@@ -5,8 +5,26 @@ student = {
     "gpa": 3.8,
     "courses": ["Python", "Java", "Calculus"]
 }
+students = {
+    "6730202068":{
+        "name": "Jiramet berkban",
+        "age": 20,
+        "major": "IT",
+        "gpa": 1.99,
+        "courses":["Python", "Java", "Calculus"]
+    },
+    "67312154879":{
+        "name": "koko nut",
+        "age": 20,
+        "major": "IT",
+        "gpa": 1.88,
+        "courses":["Python", "Java", "Calculus"]
+    },
+}
 
-# Accessing values by key
+print(f'student:{students}')
+
+# Accessing values by key1
 print(f"Name: {student['name']}")           # Alice Smith
 print(f"Age: {student['age']}")             # 20
 
@@ -40,7 +58,7 @@ inventory = {
 
 print(f"Original inventory: {inventory}")
 
-# Adding new items
+# Adding new items 
 inventory["grapes"] = 40
 inventory["strawberries"] = 15
 print(f"After adding items: {inventory}")
@@ -51,7 +69,7 @@ inventory["bananas"] += 20  # Add more bananas
 print(f"After updates: {inventory}")
 
 # Using update() method
-new_items = {"mangoes": 35, "pineapples": 10}
+new_items = {"mangoes": 35, "pineapples": 10, "apples": 25 }
 inventory.update(new_items)
 print(f"After bulk update: {inventory}")
 

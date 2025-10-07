@@ -40,7 +40,8 @@ def calculate_averages(students):
         sum_score = 0
         for score in student['scores']:
             sum_score += score
-        student['average'] = sum_score / 3
+        student['average'] = sum_score / len(student['scores'])
+    return students  # ✅ สำคัญ
 
 def display_results(students):
     print("Student Details:")
@@ -53,5 +54,5 @@ def display_results(students):
             print("Status: FAIL")
 
 students = input_students(2)
-calculate_averages(students)
+students = calculate_averages(students)
 display_results(students)
